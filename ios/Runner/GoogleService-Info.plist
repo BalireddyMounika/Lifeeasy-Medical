@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1083466328938-f9t003i2a6bfu3ko9a07ucknbec29n1m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1083466328938-f9t003i2a6bfu3ko9a07ucknbec29n1m</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1083466328938-2ieourscl0l65to59c3juhujacv72imq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCY0m8SLPK-99a4pEpairnCaStgkOnz3Rw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1083466328938</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vivifyhealthcare.lifeeazypartner</string>
+	<key>PROJECT_ID</key>
+	<string>lifeeazymedical</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lifeeazymedical.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1083466328938:ios:8ea49e28920bc658721313</string>
+</dict>
+</plist>

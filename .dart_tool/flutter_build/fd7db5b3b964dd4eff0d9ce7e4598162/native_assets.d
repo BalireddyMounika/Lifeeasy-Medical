@@ -1,0 +1,1 @@
+ C:\\apps\\Lifeeasy-Medical\\.dart_tool\\flutter_build\\fd7db5b3b964dd4eff0d9ce7e4598162\\native_assets.yaml: 

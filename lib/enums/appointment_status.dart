@@ -1,0 +1,1 @@
+enum appointmentStatus  {CREATED,CONFIRMED,ACCEPTED,CANCELLED}

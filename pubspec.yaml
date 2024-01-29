@@ -1,0 +1,147 @@
+name: lifeeazy_medical
+description: Mobile App Flutter for Medical Users
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/G4neral/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.0+10
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  intl_phone_number_input: ^0.7.1
+  pin_code_fields: ^7.3.0
+  stacked: ^3.0.1
+  carousel_slider: ^4.0.0
+  get_it: ^7.2.0
+  dio: ^4.0.0
+  shared_preferences:
+  firebase_auth: ^4.2.1
+  firebase_core: ^2.4.0
+#  awesome_notifications: ^0.7.4+1
+  firebase_messaging: ^14.1.4
+  webview_flutter: any
+  razorpay_flutter: any
+  charts_flutter: ^0.12.0
+  permission_handler: ^10.1.0
+  agora_rtc_engine: ^6.1.0
+  uuid: ^3.0.5
+  intl: ^0.17.0
+  introduction_screen: ^3.0.0
+  geolocator: ^9.0.2
+  image_picker: ^0.8.6
+  syncfusion_flutter_signaturepad: ^20.3.60
+  signature: 4.0.0
+#  image_gallery_saver: ^1.7.1
+  pdf: ^3.7.2
+  cached_network_image:
+#  native_pdf_view: ^6.0.0+1
+  pdfx: ^2.3.0
+  printing: ^5.7.4
+  path_provider: ^2.0.9
+  share: ^2.0.4
+  flutter_local_notifications: ^12.0.4
+  stacked_hooks: ^0.2.2
+  flutter_hooks:
+  package_info_plus: ^1.4.2
+  get: ^4.6.5
+  flutter_svg: ^2.0.1
+  table_calendar: ^3.0.8
+  fluttertoast: ^8.2.1
+
+
+
+
+
+
+
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+#  firebase_core_platform_interface: 4.5.1
+
+#  firebase_messaging_platform_interface: 3.1.6
+#  firebase_crashlytics_platform_interface: 3.1.13
+#  cloud_firestore_platform_interface: 5.4.13
+#  firebase_auth_platform_interface: 6.1.11
+#  firebase_storage_platform_interface: 4.0.14
+#  cloud_functions_platform_interface: 5.0.21
+#  firebase_analytics_platform_interface: 3.0.5
+#  firebase_remote_config_platform_interface: 1.0.5
+#  firebase_dynamic_links_platform_interface: 0.2.0+5
+#  firebase_performance_platform_interface: 0.1.0+5
+#  firebase_app_installations_platform_interface: 0.1.0+6
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/allow_location.png
+    - images/logo.png
+    - images/logo2.png
+    - images/empty.jpg
+    - images/dashboard/
+    - images/vector.png
+    - images/croplogo1.png
+    - images/medicine.png
+    - images/introscreens/
+    - images/
+    - images/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
